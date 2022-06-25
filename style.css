@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100&family=Source+Sans+Pro:ital,wght@0,200;1,200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    max-width:100%;
+}
+
+header{
+    max-width:100%;
+    height:13vh;
+    display:flex;
+}
+
+header h2{
+    padding-top:2%;
+    padding-left:10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header ul{
+    display:flex;
+    margin:0 auto;
+    list-style: none;
+    padding-top: 2.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 20em;
+    background-color: red;
+    justify-content: space-evenly;
+}
+
+header li{
+    padding-left:2.5em;
+    transition: all 1s;
+}
+
+li:hover{
+    cursor:pointer;
+    font-weight: 800;
+}
+
+.main-one{
+    background-image: url(/Imagens/laranja\ azul\ recorte.png);
+    background-repeat: no-repeat;
+    max-width:100%;
+    height:100vh;
+    background-size:100%;
+}
+
+.main-text-one{
+    text-align: center;
+    padding-top: 7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    font-size: 33px;
+    padding-right:25%;
+    color:white;
+}
+
+.main-text-two{
+    padding-left:7.2em;
+    padding-top: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3vh;
+    letter-spacing:1.2px;
+    color:white;
+}
+
+.main-two{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 5em;
+}
+
+.main-two img{
+    max-width:16em;
+    padding-left:0.5em;
+    margin-top: 5em;
+}
+
+footer{
+    background:gray;
+    height: 15vh;
+    margin-top: 4em;
+}
+
+.logos{
+    display:flex;
+    padding-top:2.5em;
+    margin-left: 8.8em;
+}
+
+.logos img{
+    max-width: 1.7em;
+    margin-left:1.4em;
+}
+
+.facebook img{
+    max-width: 0.8em;
+}
+
+.youtube img{
+    max-width:2em;
+}
+
+footer{
+    display:flex;
+}
+
+footer h2{
+    font-size:2.6vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:7em;
+    padding-top:2.5em;
+}
+
+.footer-text{
+    width:33em;
+    margin:0 auto;
+    margin-left:2em;
+    padding-top:2.6em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:2vh;
+}
